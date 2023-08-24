@@ -1,0 +1,78 @@
+
+.region{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 9vh 3vh 45vh 30vh 4vh 7vh 7vh 7vh 7vh 7vh 7vh 7vh;
+    grid-gap: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+header{
+    background-color: darkorange;
+    grid-column: 2/12;
+    
+}
+
+nav{
+    background-color: aquamarine;
+    grid-column: 2/4;
+    text-align: center;
+    text-decoration: none;
+}
+main{
+    background-color: aquamarine;
+    grid-column: 4/6;
+}
+section{
+    background-color: aquamarine;
+    grid-column: 6/8;
+}
+
+#a0{
+    background-color: aquamarine;
+    grid-column: 8/10;
+}
+#a1{
+    background-color: aquamarine;
+    grid-column: 10/12;
+}
+#a2{
+    background-color: goldenrod;
+    grid-column: 2/7;
+}
+#a3{
+    background-color: goldenrod;
+    grid-column-start: 7;
+    grid-column-end: 12;
+}
+#a4{
+    background-color: lightcoral;
+    grid-column-start: 2;
+    grid-column-end: 12;
+}
+footer{
+    background-color: darkred;
+    grid-column-start: 2;
+    grid-column-end: 12;
+}
+#a1>iframe{
+    width: 100%;
+    width: 100%;
+
+}
+#a2>iframe{
+    width: 100%;
+    width: 100%;
+    height: 118%;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+img{
+    direction: ;
+    size: ;
+}
